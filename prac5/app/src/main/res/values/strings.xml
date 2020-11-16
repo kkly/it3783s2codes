@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">prac5</string>
+
+    <string-array name="bread_choice">
+        <item>Flatbread</item>
+        <item>Honey Oat</item>
+        <item>Italian</item>
+        <item>Wheat</item>
+        <item>Whole Grain</item>
+    </string-array>
+
+    <string-array name="topping_choice">
+        <item>Avocado</item>
+        <item>Cucumbers</item>
+        <item>Lettuce</item>
+        <item>Onions</item>
+        <item>Pickles</item>
+        <item>Spinach</item>
+        <item>Tomatoes</item>
+    </string-array>
+
+    <string-array name="sauce_choice">
+        <item>Barbecue</item>
+        <item>Honey Mustard</item>
+        <item>Mustard</item>
+        <item>Sweet Onion</item>
+    </string-array>
+
+</resources>
