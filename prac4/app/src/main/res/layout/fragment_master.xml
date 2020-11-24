@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="50dp">
+
+        <GridView
+            android:id="@+id/gridViewProducts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:drawSelectorOnTop="true"
+            android:horizontalSpacing="15dp"
+            android:numColumns="2"
+            android:padding="15dp"
+            android:scrollbarStyle="outsideInset"
+            android:verticalSpacing="15dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
